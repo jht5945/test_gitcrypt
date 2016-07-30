@@ -2,10 +2,12 @@
 
 Get from : https://github.com/AGWA/git-crypt
 
+Init repo:
 ```
 $ git-crypt init
 ```
 
+Edit `.gitattributes` file:
 ```
 $ cat .gitattributes 
 * filter=git-crypt diff=git-crypt
@@ -13,8 +15,14 @@ $ cat .gitattributes
 README.md !filter !diff
 ```
 
+Add GPG user:
 ```
 $ git-crypt add-gpg-user 6A886CD6
+```
+
+Unlock after clone:
+```
+$ git-crypt unlock
 ```
 
 
