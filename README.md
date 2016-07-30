@@ -2,6 +2,12 @@
 
 Get from : https://github.com/AGWA/git-crypt
 
+Get from brew:
+```
+$ brew install git-crypt
+```
+
+
 Init repo:
 ```
 $ git-crypt init
